@@ -1,17 +1,17 @@
 /* eslint-disable no-plusplus */
 // ----------------Responsive Menu Here------------------
 const hamburger = document.querySelector('.hamburger');
-const navItems = document.querySelectorAll('.nav__items');
+const navMenu = document.querySelector('.mobile__nav__menu');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
-  navItems.classList.toggle('active');
+  navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.nav__links').forEach((n) => n
+document.querySelectorAll('.mobile__nav__links').forEach((n) => n
   .addEventListener('click', () => {
     hamburger.classList.remove('active');
-    navItems.classList.remove('active');
+    navMenu.classList.remove('active');
   }));
 
 // ----------Dynamic adding of conference speakers here-------------
