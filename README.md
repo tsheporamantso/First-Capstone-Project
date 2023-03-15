@@ -31,7 +31,8 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <h1>Gladwin Tshepo Ramantso<h1>
   <br/>
-  <img src="./images/mobilev.PNG" alt="logo" width="140"  height="auto" />
+  <img src="./images/mobilev.PNG" alt="logo" width="auto"  height="auto" />
+  <img src="./images/desktopv.PNG" alt="logo" width="auto"  height="auto" />
   <h3><b>United Nations Climate Change </b></h3>
 
 </div>
@@ -62,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 United Nations Climate Change <a name="about-project"></a>
 
 This project is about the United Nations Climate Change conference held in November 2022.    
 
