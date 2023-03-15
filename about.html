@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="main.js" defer></script>
+    <title>United Nations Climate Change</title>
+  </head>
+  <body>
+    <!-------------------- Header section here------------->
+    <header class="header">
+      <ul class="header__social__media">
+        <li class="facebook__icon">
+          <i class="fa-brands fa-facebook"></i>
+        </li>
+        <li class="twitter__icon">
+          <i class="fa-brands fa-square-twitter"></i>
+        </li>
+        <li class="english">English</li>
+        <li class="my__page">My Page</li>
+        <li class="logout">Logout</li>
+      </ul>
+    </header>
+    <!---------------------------- End Here -------------------->
+
+    <!-------------------- Navigation bar section here---------->
+    <nav class="navbar">
+      <div class="un__icon">
+        <img
+          class="un__image"
+          src="./images/united-nations.png"
+          alt="united nations icon"
+        />
+        <h3>
+          United Nations <br />
+          Climate Change
+        </h3>
+      </div>
+      <ul class="nav__items">
+        <li class="nav__links">
+          <a href="home.html">Home</a>
+        </li>
+        <li class="nav__links">
+          <a href="#">About</a>
+        </li>
+        <li class="nav__links">
+          <a href="#">Program</a>
+        </li>
+        <li class="nav__links">
+          <a href="#">Join</a>
+        </li>
+        <li class="nav__links">
+          <a href="#">Sponsor</a>
+        </li>
+        <li class="nav__links">
+          <a href="#">News</a>
+        </li>
+        <li class="red__border__link">
+          <a href="#" class="climate__change">UN Climate Change</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <!---------------------------- End Here -------------------->
+
+    <!-------------------- Responsive Navigation Menu section here---------->
+    <nav class="mobile__nav__menu">
+      <ul class="mobile__nav__items">
+        <li>
+          <a href="home.html" class="mobile__nav__links">Home</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__nav__links">About</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__nav__links">Program</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__nav__links">Join</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__nav__links">Sponsor</a>
+        </li>
+        <li>
+          <a href="#" class="mobile__nav__links">News</a>
+        </li>
+      </ul>
+    </nav>
+    <!---------------------------- End Here -------------------->
+    <section class="about">
+      <h3 class="about__title">
+        Hello! United Nation Climate Change Conference
+      </h3>
+      <h1 class="about__subtitle">
+        Sharm el-Sheikh Climate Change Conference - November 2022
+      </h1>
+      <hr class="short__hr">
+      <p class="about__description">
+        At the Sharm el-Sheikh Climate Change Conference (COP 27), countries
+        came together to take action towards achieving the world's collective
+        climate goals as agreed under the Paris Agreement and the Convention.
+        The conference took place from 6-20 November 2022 in Sharm el-Sheikh,
+        Egypt. Heads of State and Government attended the Sharm el-Sheikh
+        Climate Implementation Summit on 7 and 8 November. A high-level segment
+        primarily attended by Ministers took place from 15-18 November.
+      </p>
+      <h2 class="contact">
+        Please contact us per Email for any further questions about Sharm
+        el-Sheikh Climate Change 2022!
+      </h2>
+      <a href="#" class="about__email">ungc@unisef.org</a>
+
+    </section>
+
+    <section class="about__logo">
+      <h3 class="about__logo__title">Creating UN Climate Change 2022 Logo</h3>
+      <hr class="short__hr" />
+      <p class="about__logo__description">
+        The logo of UN CC conference 2022 was decided through the logo
+        competition from 8. June to 7. July
+      </p>
+      <img class="about__img" src="./images/logo.png" alt="" />
+    </section>
+
+    <section class="past__conference">
+      <h3 class="past__title">See the past UN Climate Change Conference</h3>
+      <hr class="short__hr" />
+      <p class="past__description">
+        Take a look at the last two UN Climate Change Conferences which place in
+        Buenos Aires and in Warsaw
+      </p>
+      <div class="past__cards">
+        <div class="past1">
+            <div class="overlay">
+                <div class="past__card__content">
+                    <h3 class="past__year">2013</h3>
+                    <p class="past__description__img">UN Conference 2013 in Buenos Aires</p>
+                </div>
+            </div>
+        </div>
+        <div class="past2">
+            <div class="overlay">
+                <div class="past__card__content">
+                    <h3 class="past__year">2013</h3>
+                    <p class="past__description__img">UN Conference 2013 in Buenos Aires</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsor" class="sponsors">
+      <h3 class="partner">Partner</h3>
+      <hr class="short__hr" />
+      <ul class="sponsor__icons">
+        <li>
+          <img class="sponsor__img" src="./images/sponsor1.jpg" alt="" />
+        </li>
+        <li>
+          <img class="sponsor__img" src="./images/sponsor3.jpg" alt="" />
+        </li>
+        <li>
+          <img class="sponsor__img" src="./images/sponsor4.jpg" alt="" />
+        </li>
+        <li>
+          <img class="sponsor__img" src="./images/solar-sisters.png" alt="" />
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <img class="footer__img" src="./images/logo.png" alt="" />
+      <p class="footer__description">
+        2022 United Nations Climate Change Conference Rights Reserved
+      </p>
+    </footer>
+  </body>
 </html>
