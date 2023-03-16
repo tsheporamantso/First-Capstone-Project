@@ -114,7 +114,7 @@ This project is about the United Nations Climate Change conference held in Novem
 
 - [Live Demo](https://tsheporamantso.github.io/First-Capstone-Project/)
 
-- [Video Presentation](https://www.loom.com/share/c52e7fb35bd94c3188c762a6a604bf08)
+- [Video Presentation](https://www.loom.com/share/b3993a3cb0444451afb3a9b2d9d49afd)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
