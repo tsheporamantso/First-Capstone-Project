@@ -160,7 +160,7 @@ li {
 .program {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  text-align: center;
   background-size: 50px;
   gap: 5px;
   padding: 12px;
@@ -171,11 +171,17 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgb(61 64 71);
-  border: 1px solid #272a31;
+  background-color: rgba(61, 64, 71, 0.651);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
   padding: 2%;
   line-height: 4vh;
   gap: 20px;
+}
+
+.program__detailes:hover {
+  border: 1px solid #fff;
+  transform: scale(1.02);
 }
 
 .program__text {
@@ -537,5 +543,10 @@ li {
     align-items: center;
     justify-content: center;
     gap: 10px;
+  }
+
+  .sponsor__img {
+    width: 80px;
+    height: 80px;
   }
 }
