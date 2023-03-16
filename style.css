@@ -432,7 +432,7 @@ li {
 .overlay {
   /* width: 60vh; */
   height: 32vh;
-  padding: 4rem 0rem;
+  padding: 4rem 0;
   background-color: rgba(236, 82, 66, 0.7);
 }
 
@@ -494,6 +494,7 @@ li {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+
     /* width: 50%; */
   }
 
