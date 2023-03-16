@@ -430,9 +430,9 @@ li {
 }
 
 .overlay {
-  width: 60vh;
+  /* width: 60vh; */
   height: 32vh;
-  padding: 4rem 1rem;
+  padding: 4rem 0rem;
   background-color: rgba(236, 82, 66, 0.7);
 }
 
@@ -493,8 +493,8 @@ li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    width: 50%;
+    gap: 15px;
+    /* width: 50%; */
   }
 
   .red__border__link {
@@ -503,7 +503,7 @@ li {
     align-items: center;
     justify-content: center;
     border: 5px solid #ec5242;
-    padding: 2%;
+    padding: 12px;
   }
 
   #climate__change {
